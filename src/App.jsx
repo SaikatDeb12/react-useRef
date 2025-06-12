@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const App = () => {
+  //another usecase of the useRef
+  const value = useRef();
+
   const inputRef = useRef();
 
   const focusOnInput = () => {
