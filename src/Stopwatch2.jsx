@@ -26,3 +26,5 @@ const Stopwatch2 = () => {
     </div>
   );
 };
+
+export default Stopwatch2;
